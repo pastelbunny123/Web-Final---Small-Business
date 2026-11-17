@@ -27,7 +27,7 @@ nav {background-color: #ffffff;
         }
 
 .round{
-  border-radius: 15px 50px 30px 5px; /* four values */
+  border-radius: 15px 50px 30px 5px;
   width: 200px;
   height: 150px;
 }
@@ -77,9 +77,9 @@ font-style: normal;
 }
 
 .text{
-    padding: 60 px 40 px;
+    padding: 60px 40px;
     text-align: center;
-    background-color: #E6E4ED;
+    background-color: #f8f3ef;
     font-size:x-large;
 }
 
@@ -96,4 +96,80 @@ h1{
 .contact{
         background-color: #d9e2c5;
         padding: 30px;
+}
+
+.contactus{
+    background-color: #b2c0ae;
+    padding:30px;
+    text-align: center;
+    font-size: large;}
+
+    .stars {
+    margin: 20px;
+}
+
+.star {
+    background: none;
+    border: none;
+    color: #d4d4d4;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.star:hover {
+    color: #e0bbb8;
+}
+
+.star.selected {
+    color: #e0bbb8;
+}
+
+.hours{
+    background-color: #f8f3ef;
+    padding: 30px;
+    text-align: center;
+    border-spacing: 15px;
+}
+
+.hours table {
+    margin: auto;
+    width: 70%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.hours th,
+.hours td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px;
+}
+
+.font3{
+    font-family: "didactica-cursive", sans-serif;
+font-weight: 300;
+font-style: italic;
+}
+
+.split-container {
+  display: flex;
+  width: 100%;
+  height: 500px; /* change this to whatever height you want */
+}
+
+.left-box {
+  width: 50%;
+  background-color: #f0f0f0;
+  padding: 30px;
+}
+
+.right-box {
+  width: 50%;
+  overflow: hidden;
+}
+
+.right-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }

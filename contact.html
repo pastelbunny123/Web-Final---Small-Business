@@ -10,24 +10,93 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </head>
-</head>
+
 <body class="font">
     <nav>
         <ul>
             <li><a href=index.html>Home</a></li>
-        <li><a href=contact.html>Contact Us</a></li>
+        <li><a class="active"   href=contact.html>Contact Us</a></li>
        <img width="100px" height="100px" src="images/logo.png" alt="logo">
         <li><a href=menu.html>Menu</a></li>
-        <li><a class="active"  href=ourstory.html>Our Story</a></li>
+        <li><a href=ourstory.html>Our Story</a></li>
         </ul>
     </nav>
     
     <div class="contact">
     <h1> Contact Us</h1>
-    <p> </p>
+    
+        <div class="hours">
+            <h2 class="font2">Our Hours:</h2>
+            
+            <table>
+                 <table>
+        <tr>
+            <th>Day</th>
+            <th>Hours</th>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>7:30 AM - 2:00 PM</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td>7:30 AM - 2:00 PM</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>7:30 AM - 2:00 PM</td>
+        </tr>
+        <tr>
+            <td>Thursday</td>
+            <td>7:30 AM - 2:00 PM</td>
+        </tr>
+        <tr>
+            <td>Friday</td>
+            <td>7:30 AM - 2:00 PM</td>
+        </tr>
+        <tr>
+            <td>Saturday</td>
+            <td>Closed</td>
+        </tr>
+        <tr>
+            <td>Sunday</td>
+            <td>Closed</td>
+        </tr>
+    </table>
+        </div>
+
+
+
     </div>
 
 
+    <div class="contactus">
+    <h2>We'd love your feedback!</h2>
+    <p>How likely are you to recommend our cafe to a friend?</p>
 
+    <input type="number" id="quantity" name="quantity" min="1" max="10">
+
+
+    <button  type="button" onclick="rateCafe()">Submit</button>
+
+    <p id="thankyou"></p>
+    </div>
+
+
+   
+<div class="locations">
+<div class="font2" style="text-align: center;">
+<h1> Our Locations: </h1>
+    <p>826 Thomas St Seattle, WA 98109 South Lake Union</p>
+    <p>10900 NE 4th St, Bellevue, WA 98004</p>
+    <p>501 Fairview Ave N, Seattle, WA 98109</p>
+    </div>
+</div>
+
+ <footer>
+            <p>&copy; Web Design 2026</p>
+        </footer>
+    
+ <script src="JS/contact.js"></script>
 </body>
 </html>
